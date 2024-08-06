@@ -1,0 +1,9 @@
+name: Run shell commands
+on: [push]
+
+jobs:
+  run-shell-command:
+    run-on: ubuntu-latest
+    steps:
+      - name: Echo a string
+        run: echo "this is the firest github-action worklow file"
